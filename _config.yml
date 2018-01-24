@@ -1,0 +1,34 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://www.br-smith.com
+title: Brandon Smith Personal Site
+email: bsmith1@scu.edu
+author: Brandon Smith
+description: > # "Write an awesome description for your new site here. 
+  Hello, my name is Brandon Smith and this is my website. I am a Computer Engineering student 
+  at Santa Clara University, who is incredibly excited to explore opportunities in Silicon Valley. 
+  I am a passionate and hard worker, and can't wait to jump into new and challenging projects.
+copyright: 'Copyright &copy; 2018 Brandon Smith. All Rights Reserved.'
+# credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    url: 
+  - title: github
+    url: https://github.com/br-smith
+  - title: linkedin
+    url: https://www.linkedin.com/in/br-smith
