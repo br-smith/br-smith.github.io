@@ -21,6 +21,9 @@ h6 {
     font-weight: 700;
 }
 
+body{
+    overflow: hidden;
+}
 .lead {
     font-size: 18px;
     font-weight: 400;
@@ -31,7 +34,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/LinkedInPhoto.jpg) no-repeat center center;
     background-size: cover;
 }
 

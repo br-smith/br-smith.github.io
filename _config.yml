@@ -26,9 +26,12 @@ permalink: pretty
 # ----------------------- #
 
 social:
-  - title: twitter
-    url: 
+  - title: RÉSUMÉ
+    url: ../files/BrandonSmithResume.pdf
+    icon: file
   - title: github
     url: https://github.com/br-smith
+    icon: github
   - title: linkedin
     url: https://www.linkedin.com/in/br-smith
+    icon: linkedin
