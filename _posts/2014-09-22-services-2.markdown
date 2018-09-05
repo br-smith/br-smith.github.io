@@ -1,10 +1,12 @@
 ---
 layout: default
-img: dog.png
+img: city-music.jpg
 category: Services
-title: 3D Device Mockups<br>by PSDCovers
+title: SF MusicTech Hackathon 2017 | Python, JavaScript
 description: |
+link: MusicTechHackathon2k17
 ---
-  Turn your 2D designs into high quality, 3D
-  product shots in seconds using free Photoshop actions by [PSDCovers](http://www.psdcovers.com/)! Visit
-  their website to download some of their awesome, free photoshop actions!
+A program to determine which U.S. city most closely matches a user's music preferences.
+This project utilizes the Spotify API to analyze both a user's top songs and top songs from major cities nationwide, and returns the most similar 'music scene' to the user.
+
+See more [here](https://github.com/br-smith/MusicTechHackathon2k17)!

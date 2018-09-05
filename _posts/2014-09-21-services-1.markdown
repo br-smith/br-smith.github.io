@@ -1,8 +1,12 @@
 ---
 layout: default
-img: ipad.png
+img: security-lock.jpg
 category: Services
-title: Death to the Stock Photo:<br>Special Thanks
+title: SimpleAES | C++
 description: |
+link: SimpleAES
 ---
-  A special thanks to [Death to the Stock Photo](http://join.deathtothestockphoto.com/) for providing the photographs that you see in this template.  Visit their website to become a member!
+A stripped down, simplified version of the Advanced Encryption Standard for teaching purposes.
+It walks a user through the steps of key expansion and encryption, explaining the math and how this version differs from the actual algorithm.
+
+See more [here](https://github.com/br-smith/SimpleAES)!

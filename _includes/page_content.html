@@ -1,4 +1,19 @@
-<!-- <section id="services">
+<style>
+.img-responsive {
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  background: white;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 10px;
+  border-radius:50%;
+  display:inline-block;
+  padding:10px;
+}
+</style>
+
+<section id="services">
 
 {% for post in site.posts reversed %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
@@ -15,15 +30,17 @@
                     <div class="lead">{{ post.content }}</div>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
+                  <a href="https://github.com/br-smith/{{ post.link }}">
+                    <img class="img-responsive" src="img/services/{{ post.img }}" alt="" >
+                  </a>
                 </div>
             </div>
 
         </div>
-    
+
 
     </div>
-    
+
     {% else %}
 
     <div class="content-section-b">
@@ -43,10 +60,10 @@
             </div>
 
         </div>
-        
+
 
     </div>
-    
+
     {% endif %}
 {% endfor %}
-</section> -->
+</section>
